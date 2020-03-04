@@ -113,6 +113,9 @@ section{
 
 }
 @media screen and (min-width: 966px){
+	#slider-3{
+		display: none;
+	}
 	#slider-4{
 		display: none;
 	}
@@ -125,7 +128,10 @@ section{
 	width:170px;
 	height:90px;
 }
-#slider-3,#slider-4{
+
+	#slider-3{
+		display: none;
+	}#slider-4{
 		display: none;
 	}
 }
@@ -137,7 +143,10 @@ section{
 	width:220px;
 	height:117px;
 }
-#slider-1,#slider-2{
+#slider-2{
+		display: none;
+	}
+	#slider-1{
 		display: none;
 	}
 }
@@ -151,7 +160,10 @@ section{
 	width:150px;
 	height:80px;
 }
-#slider-1,#slider-2{
+#slider-2{
+		display: none;
+	}
+	#slider-1{
 		display: none;
 	}
 }
