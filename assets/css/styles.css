@@ -95,7 +95,48 @@ section{
 }
 
 
+.btn {
 
+  text-align: center;
+  cursor: pointer;
+
+  
+}
+.block {
+ 
+  display:none;
+height: 20px;
+  position:relative;
+  text-align: center;
+
+ 
+	 margin-left: auto;
+    margin-right: auto;
+}
+.show-block {
+  display: block;
+}
+.btn1 {
+
+  text-align: center;
+  cursor: pointer;
+
+  
+}
+.block1 {
+ 
+  display:none;
+height: 20px;
+  position:relative;
+  text-align: center;
+
+ 
+	 margin-left: auto;
+    margin-right: auto;
+}
+.show-block1 {
+  display: block;
+}
 
 @media screen and (max-width: 960px) {
 	.thumbs, #credit{
