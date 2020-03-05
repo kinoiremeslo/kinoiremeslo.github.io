@@ -135,10 +135,11 @@
 	<a href="https://www.instagram.com/lllkinoiremeslolll" title="Instagram"><img style="margin-right: 30px" src="assets/img/i3.png" height="24" ></a>
 	<a></a>
 	<a href="https://vk.com/id582224958" title="Администратор ВКонтакте"><img  src="assets/img/i1.png" height="24" ></a>
-	<a title="Почта: lllkinoiremeslolll@gmail.com"><img  src="assets/img/i4.png" height="24" ></a>
-	<a title="Номер телефона: 8-969-200-36-07"><img  src="assets/img/t.png" height="24" ></a>
+	<a class="btn"><img  src="assets/img/i4.png" height="24" ></a>
+	<a class="btn1"><img  src="assets/img/t.png" height="24" ></a>
 </p>
-
+<span class="block">Почта: lllkinoiremeslolll@gmail.com</span>
+<span class="block1">Номер телефона: 8-969-200-36-07</span>
 
 <p style="text-align: center;font-weight: 400;font-size: 15pt;"><font face="Century">Благодарим за поддержку! </font></p><br><p style="font-size: 10pt;"><font face="Century">Внимание! Указание имени при внесении финансового вклада помогает нам оставить след Вашего участия в проекте – мы хотим каждого отметить в титрах.</font></p></div>
    <p class="image1">
@@ -233,7 +234,30 @@
 
 </div>
 	</div>
-	
+	<script type="text/javascript">
+   var btn = document.querySelector('.btn');
+btn.onclick = function(e) {
+  var element = document.querySelector(".block");
+  if(element.classList.contains("show-block")) {
+    element.classList.remove("show-block");
+  } else {
+    element.classList.add("show-block");
+  }
+} 
+
+  </script>
+    <script type="text/javascript">
+   var btn1 = document.querySelector('.btn1');
+btn1.onclick = function(e) {
+  var element = document.querySelector(".block1");
+  if(element.classList.contains("show-block1")) {
+    element.classList.remove("show-block1");
+  } else {
+    element.classList.add("show-block1");
+  }
+} 
+
+  </script>
 	<script>
     'use strict';
     var multiItemSlider = (function () {
